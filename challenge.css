@@ -1,4 +1,42 @@
 /* Feel free to edit this stylesheet any way you want */
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
 #banner {
+  position: relative;
+
+  height: 200px;
+  background: url('./banner.jpg') fixed;
+}
+
+#banner h1 {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  margin: -0.5em auto 0;
+
+
   text-align: center;
+  color: #ffffff;
+  font: 2em Georgia, serif;
+  letter-spacing: 0.5em;
+  text-shadow: 0.1em 0.1em 0.2em #000;
+  opacity: 0.9;
+}
+
+#contents {
+  text-align: justify;
+  line-height: 1.5em;
+  max-width: 40em;
+  margin: 0 auto;
+  padding: 1em;
+}
+
+h2, h3 {
+  font-weight: normal;
+  border-bottom: 1px solid #f0f0f0;
 }
